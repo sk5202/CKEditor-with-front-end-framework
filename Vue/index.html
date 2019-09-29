@@ -1,0 +1,21 @@
+<html>
+    <head><link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="index.css">
+         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   
+         <script src="node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+         <script src="node_modules/@ckeditor/ckeditor5-vue/dist/ckeditor.js"></script>
+        
+      </head>
+    <body>
+      <div class="center">
+          <img class="hero-logo" src="https://vuejs.org/images/logo.png" alt="vue logo">
+            <h2>VUE JS</h2>
+      </div>
+              <div id="app">
+          <ckeditor :editor="editor" v-model="editorData" :config="editorConfig"></ckeditor>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

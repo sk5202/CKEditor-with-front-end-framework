@@ -1,0 +1,18 @@
+html, body {
+    margin: 5px;
+    padding: 0;
+}
+
+.center{
+  
+    text-align: center;
+   
+}
+.hero-logo{
+    width: 20%
+}
+#app{
+    width: 50%;
+    text-align: center;
+    padding-left: 26%;
+}
